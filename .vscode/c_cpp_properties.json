@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/gtk-3.0",
+                "/usr/include/pango-1.0",
+                "/usr/include/glib-2.0",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "/usr/include/harfbuzz",
+                "/usr/include/freetype2",
+                "/usr/include/libpng16",
+                "/usr/include/libmount",
+                "/usr/include/blkid",
+                "/usr/include/fribidi",
+                "/usr/include/cairo",
+                "/usr/include/pixman-1",
+                "/usr/include/gdk-pixbuf-2.0",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include/webp",
+                "/usr/include/gio-unix-2.0",
+                "/usr/include/atk-1.0",
+                "/usr/include/at-spi2-atk/2.0",
+                "/usr/include/at-spi-2.0",
+                "/usr/include/dbus-1.0",
+                "/usr/lib/x86_64-linux-gnu/dbus-1.0/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-pthread",
+                "-lgtk-3",
+                "-lgdk-3",
+                "-lz",
+                "-lpangocairo-1.0",
+                "-lpango-1.0",
+                "-lharfbuzz",
+                "-latk-1.0",
+                "-lcairo-gobject",
+                "-lcairo",
+                "-lgdk_pixbuf-2.0",
+                "-lgio-2.0",
+                "-lgobject-2.0",
+                "-lglib-2.0"
+            ]
+        }
+    ],
+    "version": 4
+}
